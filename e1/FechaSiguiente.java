@@ -8,7 +8,8 @@ public class FechaTest{
 
     @ParameterizedTest
     @CsvSource({
-        "31,12,2023, 01/"
+        "31,12,2023, 01/01/2024",
+        "31,12,2023, 01/Enero/2024"
     }
 
     )
